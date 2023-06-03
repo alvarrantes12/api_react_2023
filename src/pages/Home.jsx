@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import { deleteFetch } from '../commons/ApiMethods';
 import Index from '../components/Pets/index';
 import New from '../components/Pets/new';
 import Edit from '../components/Pets/edit';

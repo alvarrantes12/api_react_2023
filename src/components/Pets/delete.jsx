@@ -24,11 +24,11 @@ function Delete({ setRefresh }) {
             <form onSubmit={handleDelete}>
 
                 <div>
-                <input 
-                    type = 'text'
-                    value={idDelete}
-                    placeholder='Número id'
-                    onChange={(e) => {setIdDelete(e.target.value);}} />
+                    <input 
+                        type = 'text'
+                        value={idDelete}
+                        placeholder='Número id'
+                        onChange={(e) => {setIdDelete(e.target.value);}} />
                 </div>
                 <div>{messageDelete ? <p>{messageDelete}</p> : <br />}</div>
                 <button type='submit'>Eliminar</button>

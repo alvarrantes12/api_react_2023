@@ -1,7 +1,7 @@
 import React, {useState} from 'react';
-import {putFetch} from '../../commons/ApiMethods';
+import { putFetch } from '../../commons/ApiMethods';
 
-function Edit (setRefresh) {
+function Edit ({setRefresh}) {
     const [nameEdit, setNameEdit] = useState('')
     const [idEdit, setIdEdit] = useState('')
     const [messageEdit, setMessageEdit] = useState('')

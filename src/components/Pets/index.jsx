@@ -16,7 +16,7 @@ function Index ({refresh, setRefresh}) {
           setLoading(false);
         });
         setRefresh(false);
-    }, [setContents, setLoading, refresh])
+    }, [setContents, setLoading, refresh, setRefresh])
 
       return (
         <>

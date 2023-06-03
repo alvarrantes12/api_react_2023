@@ -1,5 +1,5 @@
 import React, {useState} from 'react';
-import { postFetch} from '../../commons/ApiMethods';
+import { postFetch } from '../../commons/ApiMethods';
 
 function New ({ setRefresh}) {
     const [name, setName] = useState('')
